@@ -31,7 +31,7 @@ const Services = () => {
           {service.map(({ title, image, content }, index) => (
             <div
               key={index}
-              className="p-6 gap-10 flex items-center max-h-[60vh]"
+              className="p-6 gap-10 flex flex-wrap items-center max-h-[60vh]"
             >
               <div className={`flex-1 p-4 ${index % 2 == 0 ? "order-1 rounded-l-3xl border-r-0 " : " rounded-r-3xl border-l-0"} border h-[60vh]`}>
                 <img src={image} alt={`${title}-${index}`} className="w-full h-full" />
