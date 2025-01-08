@@ -26,18 +26,18 @@ const Services = () => {
   return (
     <section id="services" className="py-20 bg-white">
       <div className="container mx-auto px-4">
-        <h2 className="text-5xl font-bold text-gray-800 text-center mb-8">Our Services</h2>
+        <h2 className="md:text-5xl text-3xl font-bold text-gray-800 text-center mb-8">Our Services</h2>
         <div className=" flex-col flex gap-8">
           {service.map(({ title, image, content }, index) => (
             <div
               key={index}
-              className="p-6 gap-10 flex flex-wrap items-center max-h-[60vh]"
+              className="p-6 gap-10 flex flex-col md:flex-row items-center md:max-h-[60vh]"
             >
-              <div className={`flex-1 p-4 ${index % 2 == 0 ? "order-1 rounded-l-3xl border-r-0 " : " rounded-r-3xl border-l-0"} border h-[60vh]`}>
+              <div className={`flex-1 p-4 ${index % 2 == 0 ? "md:order-1 order-none rounded-l-3xl border-r-0 " : " rounded-r-3xl border-l-0"} border h-[60vh]`}>
                 <img src={image} alt={`${title}-${index}`} className="w-full h-full" />
               </div>
               <div className="flex-1 flex flex-col justify-center text-left">
-                <h3 className="text-4xl font-semibold text-gray-700">{title}</h3>
+                <h3 className="text-2xl md:text-4xl font-semibold text-gray-700">{title}</h3>
                 <div className="text-gray-600 mt-2">{content}</div>
               </div>
             </div>
