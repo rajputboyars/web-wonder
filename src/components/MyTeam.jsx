@@ -20,7 +20,7 @@ const MyTeam = () => {
     },
     {
       name: "Nikhil Gautam",
-      role: "Devops & Co-Founder",
+      role: "Backend & Devops ",
       photo: "https://media.licdn.com/dms/image/v2/D5603AQGWnzn7F0Tl1Q/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1724258726260?e=1741824000&v=beta&t=bP3qfnnYTA6G17I5yOi1v0AuF3_8CGhZRXd2lGPo52k",
       social: {
         linkedin: "https://www.linkedin.com/in/nikhil-gautam-192486238/",
@@ -29,7 +29,7 @@ const MyTeam = () => {
     },
     {
       name: "Nikhil Rakala",
-      role: "CMS Architect & Co-Founder",
+      role: "CMS Architect",
       photo: "https://media.licdn.com/dms/image/v2/D5603AQEWSInBFOk_Aw/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1718625537281?e=1741824000&v=beta&t=uIr3JCuKT-L1bJvrLd1WQV4ySMVF4g9Mh1T7AK9_IRY",
       social: {
         linkedin: "https://www.linkedin.com/in/nikhil-rakala-b594191ab/",
@@ -38,7 +38,7 @@ const MyTeam = () => {
     },
     {
       name: "Jappi Singh",
-      role: "Lead Developer & Co-Founder",
+      role: "Tech Lead ",
       photo: "https://media.licdn.com/dms/image/v2/D5603AQF6u5lke2u-LA/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1709230911839?e=1741824000&v=beta&t=e7fmZdJJtsPHCn443eQe0THWsUSM0aeb_sadY_ForR4",
       social: {
         linkedin: "https://www.linkedin.com/in/connect-jappreet-singh-arora/",
