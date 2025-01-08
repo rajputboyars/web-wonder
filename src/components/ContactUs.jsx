@@ -3,9 +3,9 @@ const ContactUs = () => {
         <section id="contact-us" className="py-10 bg-gray-100">
             <div className="container mx-auto px-4">
                 <h2 className="text-3xl font-bold mb-8 text-center">Get in Touch</h2>
-                <div className="flex flex-col lg:flex-row bg-white shadow-md rounded-lg">
+                <div className="flex flex-col lg:flex-row text-black bg-white shadow-md rounded-lg">
                     {/* Left Side: Contact Details */}
-                    <div className="lg:w-1/2 p-8 rounded-t-lg lg:rounded-l-lg lg:rounded-tr-none">
+                    <div className="lg:w-1/2 p-8 text-black rounded-t-lg lg:rounded-l-lg lg:rounded-tr-none">
                         <p className=" mb-8">
                             Feel free to reach out to us via the form or using the contact details below.
                         </p>
